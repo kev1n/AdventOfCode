@@ -1,22 +1,3 @@
-# inputs = open('day6.txt')
-# inputs = inputs.read().split('\n\n')
-
-# groups = []
-# for i in inputs:
-#   i = i.replace('\n', ' ')
-#   groups.append(i.split(' '))
-
-# yesanswers = 0
-# for i in groups:
-#   uniqueletters = ''
-#   for subgroups in i:
-#     for letter in subgroups:
-#       if letter not in uniqueletters:
-#         uniqueletters += letter
-#   yesanswers += len(uniqueletters)
-
-# print(yesanswers)
-  
 inputs = open('day6.txt')
 inputs = inputs.read().split('\n\n')
 
