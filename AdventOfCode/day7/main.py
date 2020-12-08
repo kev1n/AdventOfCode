@@ -1,6 +1,5 @@
 inputs = open('day7.txt')
 inputs = inputs.read().splitlines()
-from pprint import pprint
 
 dicts = {}
 for i in inputs:
